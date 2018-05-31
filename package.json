@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "dotnet run -p .\\src\\StoreOfBuild.Web\\StoreOfBuild.Web.csproj",
+    "migration": "cd .\\src\\storeofbuild.data\\ && dotnet ef --startup-project ..\\storeofbuild.web\\storeofbuild.web.csproj migrations add",
+    "migration-script": "cd .\\src\\storeofbuild.data\\ && dotnet ef --startup-project ..\\storeofbuild.web\\storeofbuild.web.csproj migrations script",
+    "remove-migration": "cd .\\src\\storeofbuild.data\\ && dotnet ef --startup-project ..\\storeofbuild.web\\storeofbuild.web.csproj migrations remove",
+    "database-update": "cd .\\src\\storeofbuild.data\\ && dotnet ef --startup-project ..\\storeofbuild.web\\storeofbuild.web.csproj database update"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "gulp": "^3.9.1",
+    "jquery": "^3.3.1",
+    "jquery-validation": "^1.17.0",
+    "jquery-validation-unobtrusive": "^3.2.9",
+    "popper": "^1.0.1"
+  }
+}
