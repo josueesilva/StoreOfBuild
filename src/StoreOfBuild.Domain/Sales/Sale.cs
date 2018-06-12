@@ -17,8 +17,8 @@ namespace StoreOfBuild.Domain.Sales
             Item = new SaleItem(product, quantity);
             CreateOn = DateTime.Now;
             ClientName = clientName;
-
-        }
-        
+            //Valor total dos itens definido para o valor total venda devido ao sistema efetuar a venda de somente um item
+            Total = Item.Total;
+        }        
     }
 }
