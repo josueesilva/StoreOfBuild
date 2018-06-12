@@ -21,7 +21,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "storeofbuild.web/1.0.0": {
+      "StoreOfBuild.Web/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.6",
           "Microsoft.EntityFrameworkCore.Design": "2.0.3",
@@ -30,10 +30,10 @@
           "StoreOfBuild.Domain": "1.0.0"
         },
         "runtime": {
-          "storeofbuild.web.dll": {}
+          "StoreOfBuild.Web.dll": {}
         },
         "compile": {
-          "storeofbuild.web.dll": {}
+          "StoreOfBuild.Web.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -4048,7 +4048,7 @@
     }
   },
   "libraries": {
-    "storeofbuild.web/1.0.0": {
+    "StoreOfBuild.Web/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
