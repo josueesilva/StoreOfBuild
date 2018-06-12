@@ -17,6 +17,7 @@ namespace StoreOfBuild.Domain.Sales
             Item = new SaleItem(product, quantity);
             CreateOn = DateTime.Now;
             ClientName = clientName;
+            Total = Item.Total;
         }        
     }
 }
